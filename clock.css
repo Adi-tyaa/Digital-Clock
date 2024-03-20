@@ -1,0 +1,86 @@
+
+#clock{
+  height: 500px;
+  width: 500px;
+  margin-top: auto;
+  background-color: black;
+  
+  padding: 50px;
+  border-radius: 10px;
+  margin-left: 30%;
+}
+#innerdiv{
+  
+  height: 420px;
+  margin: auto;
+  border: 8px solid grey;
+  border-style:groove;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+#date{
+  height: 70px;
+  width: 90%;
+  border: 3px solid gray;
+  margin: auto;
+  align-items: center;
+  border-radius: 10px;
+  padding: 0px;
+}
+.date{
+  color: red;
+  font-size: 50px;
+  text-align: center;
+  text-justify:distribute;
+  font-family: 'digital-7', sans-serif
+}
+#time{
+  height: 70px;
+  width: 80%;
+  border: 3px solid gray;
+  border-radius: 10px;
+  margin: auto;
+}
+.time{
+  color: red;
+  font-size: 50px;
+  text-align: center;
+  text-justify:distribute;
+  font-family: 'Orbitron', sans-serif
+}
+#day{
+  height: 30px;
+  width: 80%;
+  
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+}
+#temp{
+  height: 70px;
+  width: 40%;
+  font-size: 50px;
+  text-align: center;
+  border: 3px solid gray;
+  border-radius: 10px;
+  margin: auto;
+  color: red;
+  text-justify:distribute;
+  font-family: 'Orbitron', sans-serif;
+}
+label,span{
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  font-weight: bold;
+}
+input[type="radio"]:checked {
+
+accent-color:red;
+background-color: black;
+border: 0px;
+width: 90%;
+height: 1.5em;
+padding: 0px;
+}

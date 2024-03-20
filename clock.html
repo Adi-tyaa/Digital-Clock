@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Clock</title>
+  <link rel="stylesheet" href="clock.css">
+  
+</head>
+<body>
+
+
+  <div id="clock">
+    <div id="innerdiv">
+        
+        <div style="display: flex; width: 90%; font-size: 20px ; justify-content: space-around;">
+          <span style="color: white;">Date</span>
+          <span style="color: white;  padding-left: 9% ;" >Month</span>
+          <span style="color: white;">Year</span>
+        </div>
+        <div id="date" class = "date"></div>
+        
+        <div style="display: flex; width: 80%; font-size: 20px; padding-left: 10% ; justify-content: space-around;">
+          <span style="color: white;">Hours</span>
+          <span style="color: white; padding-left:7%">Minutes</span>
+          <span style="color: white;">Seconds</span>
+        </div>
+        <div id="time"class="time"></div>
+        
+        <div id="day">
+          <div>
+            <label for="">Sun</label><br>
+            <input type="radio" name="day" id="sunday" value="Sunday">
+          </div>
+          <div>
+            <label for="">Mon</label><br>
+            <input type="radio" name="day" id="monday" value="Monday">
+          </div>
+          <div>
+            <label for="">Tue</label><br>
+            <input type="radio" name="day" id="tuesday" value="Tuesday">
+          </div>
+          <div>
+            <label for="">wed</label><br>
+            <input type="radio" name="day" id="wednesday" value="Wednesday">
+          </div>
+          <div>
+            <label for="">Thu</label><br>
+            <input type="radio" name="day" id="thursday" value="Thursday">
+          </div>
+          <div>  
+            <label for="">Fri</label><br>
+            <input type="radio" name="day" id="friday" value="Friday">
+          </div>
+          <div>
+            <label for="">Sat</label><br>
+            <input type="radio" name="day" id="saturday" value="Saturday">
+          </div>
+          
+        </div>
+        <br>
+        <span style="color: white; text-align: center; font-size: 30px;">Temp &#8451;</span>
+        
+        <div>
+          <div id="temp"></div>
+      </div>
+      <div class="ajantalogo">
+        <img src="ajanta.png" alt="" height="40px" width="80px">
+      </div>
+    </div>
+  </div>
+  
+  
+  
+
+  <script src="clock.js"></script>
+</body>
+</html>
